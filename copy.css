@@ -1,0 +1,212 @@
+.m-feature-box-dropdown {
+    padding: 40px 0;
+    letter-spacing: 0.5px;
+  }
+  .m-feature-box-dropdown .content-wrapper {
+    max-width: 1340px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .m-feature-box-dropdown .heading {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .m-feature-box-dropdown .content {
+    background-color: #fff;
+    padding: 30px 15px 15px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    clear: both;
+  }
+
+  .m-feature-box-dropdown .content .item-wrapper .answer {
+    max-height: 500px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out;
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    color: #555;
+  }
+  .m-feature-box-dropdown .content .item-wrapper .answer .readmore-wrapper a {
+    color: #2772c7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .m-feature-box-dropdown .content .list-row {
+    width: 100%;
+    clear: both;
+  }
+  .m-feature-box-dropdown .note-wrapper {
+    width: 100%;
+    clear: both;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more {
+    border: none;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 1.5;
+    position: relative;
+    background: 0 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more .show-less,
+  .m-feature-box-dropdown .note-wrapper .load-more .show-more {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+    color: #0F7AED;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more .show-less {
+    display: none;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more .icon-arrow-down {
+    width: 12px;
+    height: 8px;
+    margin-left: 5px;
+    margin-top: 7px;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 13.2 14.7 8.4' fill='%230C77B9'%3E%3Cpath d='M4.7 14.6l-7 7H-3l-7-7 1.3-1.4 6 6 6-6 1.4 1.4z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more.show .show-more {
+    display: none;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more.show .show-less {
+    display: inline-block;
+  }
+  .m-feature-box-dropdown .note-wrapper .load-more.show .icon-arrow-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .m-feature-box-dropdown .collapsed {
+    height: 0;
+    overflow: hidden;
+  }
+  .m-feature-box-dropdown .collapsed.show {
+    height: auto;
+  }
+  .m-feature-box-dropdown .question {
+    cursor: pointer;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+  }
+  .m-feature-box-dropdown .question .question-text {
+    font-size: 16px;
+    line-height: 23px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.48px;
+    /* display: block; */
+    /* position: relative; */
+  }
+  /* .m-feature-box-dropdown .question .question-text::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 13.2 14.7 8.4'%3E%3Cstyle%3E.st0%7Bfill:%23dadada%7D%3C/style%3E%3Cpath class='st0' d='M4.7 14.6l-7 7H-3l-7-7 1.3-1.4 6 6 6-6 1.4 1.4z'%3E%3C/path%3E%3C/svg%3E");
+    background-position: center center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  } */
+  .m-feature-box-dropdown .question .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    position: absolute;
+    left: -45px;
+  }
+  .m-feature-box-dropdown .question .icon svg {
+    width: 100%;
+    height: auto;
+  }
+  .m-feature-box-dropdown .question .icon path {
+    /* stroke: #0c77b9; */
+    stroke-width: 1.5px;
+    stroke-linejoin: round;
+    /* fill: #0c77b9; */
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .m-feature-box-dropdown .question:hover .icon path {
+    /* stroke: #008738;
+    fill: #008738; */
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .m-feature-box-dropdown .question .icon-varrow {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 20px;
+    height: 11px;
+  }
+  .m-feature-box-dropdown .question.active .question-text::after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  @media (min-width: 681px) {
+    .m-feature-box-dropdown .heading {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .m-feature-box-dropdown .content {
+      padding: 0 0 20px;
+    }
+    .m-feature-box-dropdown .content .item-wrapper {
+      padding: 0 35px 35px 95px;
+      width: 50%;
+    }
+    .m-feature-box-dropdown .question .question-text {
+      font-size: 16px;
+    }
+    .m-feature-box-dropdown .question .icon {
+      width: 45px;
+      height: 45px;
+      left: -60px;
+    }
+    .m-feature-box-dropdown .note-wrapper .load-more .show-less,
+    .m-feature-box-dropdown .note-wrapper .load-more .show-more {
+      font-size: 13px;
+    }
+    /* .m-feature-box-dropdown .note-wrapper .load-more .icon-arrow-down {
+      margin-top: 9px;
+    } */
+  }
+  
